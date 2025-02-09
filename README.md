@@ -1,3 +1,39 @@
+## About me
+
+```python
+@Singleton
+class AppSolves:
+    pass
+
+class Attributes(AppSolves):
+    @property
+    def contact(self) -> tuple[str, str, str]:
+        email         = "contact@appsolves.dev"
+        stackoverflow = "https://stackoverflow.com/users/19960585"
+        instagram     = "https://www.instagram.com/curioburstz/"
+	    
+        return email, stackoverflow, instagram
+
+    @property
+    def personal(self) -> tuple[list[str], int]:
+        languages = ['German', 'English', 'Turkish']
+        age       = 16
+		
+        return languages, age
+	
+    @property
+    def profession(self) -> tuple[dict[str, list[str]], list[str], str]:
+        languages = {
+            'professional': ['python', 'dart'],
+            'intermediate': ['c++', 'javascript'],
+            'beginner'    : ['c#']
+        }
+        specializations = ['ml/dl', 'pytorch/tensorflow', 'app development']
+        ide             = 'vscode'
+
+        return languages, specializations, ide
+```
+
 ## 🌐 Socials:
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/19960585) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@curioburstz) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@curioburstz) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:contact@appsolves.dev) 
 
