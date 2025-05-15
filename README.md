@@ -1,8 +1,7 @@
 ## About me 🚀
 
 ```python
-@Singleton
-class AppSolves:
+class AppSolves(metaclass=Singleton):
     pass
 
 class Attributes(AppSolves):
