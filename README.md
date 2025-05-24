@@ -9,7 +9,7 @@ class Attributes(AppSolves):
     def contact(self) -> tuple[str, str, str]:
         email         = "contact@appsolves.dev"
         stackoverflow = "https://stackoverflow.com/users/19960585"
-        instagram     = "https://www.instagram.com/curioburstz/"
+        instagram     = "https://www.instagram.com/appsolves.dev/"
 	    
         return email, stackoverflow, instagram
 
