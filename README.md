@@ -1,3 +1,5 @@
+[![Sponsor](https://img.shields.io/badge/Sponsor-❤️%20AppSolves-ea4aaa?style=for-the-badge)](https://github.com/sponsors/AppSolves)
+
 ## About me 🚀
 
 ```python
