@@ -18,7 +18,7 @@ class Attributes(AppSolves):
     @property
     def personal(self) -> tuple[list[str], int]:
         languages = ['German', 'English', 'Turkish']
-        age       = 16
+        age       = 17
 		
         return languages, age
 	
